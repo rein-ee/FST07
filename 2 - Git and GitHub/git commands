@@ -29,3 +29,9 @@ List of all the branches
 
 Switch to another branch
 - git checkout "branch name"
+
+Mergin Master to Branch
+- git merge "name of the branch"
+
+Deleting a branch
+- git bracnh -d "name of the branch"
