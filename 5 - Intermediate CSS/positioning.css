@@ -1,0 +1,42 @@
+#relative {
+    /* Relative to its original position. */
+    background-color: aqua;
+    position: relative;
+    /* top, left, right, bottom */
+    top: 60px;
+    left: 30px;
+  }
+
+#absolute {
+    /* Relative to its parent container */
+    /* If the parent container position is not set to static. */
+    background-color: tomato;
+    position: absolute;
+    /* top, left, right, bottom */
+    top: 0px;
+    right: 0px;
+  }
+
+#fixed {
+    background-color: burlywood;
+    position: fixed;
+    /* top, left, right, bottom */
+    bottom: 0px;
+    right: 0px;
+  }
+
+#fixed {
+    /* Relative to the viewport */
+    background-color: burlywood;
+    position: fixed;
+    /* top, left, right, bottom */
+    bottom: 0px;
+    right: 0px;
+  }
+
+#sticky {
+    background-color: chartreuse;
+    position: sticky;
+    /* top, left, right, bottom */
+    top: 0px;
+  }
