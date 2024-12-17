@@ -18,14 +18,6 @@
   }
 
 #fixed {
-    background-color: burlywood;
-    position: fixed;
-    /* top, left, right, bottom */
-    bottom: 0px;
-    right: 0px;
-  }
-
-#fixed {
     /* Relative to the viewport */
     background-color: burlywood;
     position: fixed;
